@@ -21,7 +21,6 @@
             <cxf:logging/>
         </jaxrs:features>
         <jaxrs:serviceBeans>
-			<ref bean="comidaManager" />
             <ref bean="userManager"/>
         </jaxrs:serviceBeans>
         <jaxrs:providers>
